@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background-color: #f4f4f9;
-  font-family: 'Montserrat', "Century Gothic", sans-serif; 
+  font-family: 'Montserrat', "Century Gothic", sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -277,9 +277,10 @@ body.dark-theme .moon-icon {
 }
 
 .modal-content textarea {
-  resize: none;
+  resize: none; 
   min-height: 120px;
 }
+
 .login-submit {
   width: 100%;
   padding: 12px;
@@ -330,14 +331,13 @@ body.dark-theme .moon-icon {
   background-color: #5b539c;
 }
 
-/* Updated Delete Button Colors! */
 .delete-btn {
-  background-color: #c27a7e; /* Dusty, soft rose-red */
+  background-color: #c27a7e; 
   color: white;
 }
 
 .delete-btn:hover {
-  background-color: #a86468; /* Slightly darker dusty rose */
+  background-color: #a86468; 
 }
 
 body.dark-theme {
